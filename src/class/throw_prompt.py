@@ -1,11 +1,3 @@
-import pathlib
-import textwrap
-import google.generativeai as genai
-import os
-import time
-from openai import OpenAI
-import openai
-
 class PromptInterface:
     def __init__(self):
         self.question_state = self.get_text_from_txt("../config/prompt/request_question.txt")

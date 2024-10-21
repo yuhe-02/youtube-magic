@@ -1,0 +1,3 @@
+google-generative-ai
+openai
+youtube-transcript-api
