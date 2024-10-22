@@ -1,3 +1,7 @@
 google-generative-ai
 openai
 youtube-transcript-api
+Flask
+pyyaml
+Flask-Injector
+tqdm
