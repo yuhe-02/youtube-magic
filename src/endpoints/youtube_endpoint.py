@@ -13,3 +13,13 @@ youtube_bp = Blueprint('youtube', __name__)
 @inject
 def execute(youtube_controller: YoutubeController):
     return youtube_controller.execute()
+
+@youtube_bp.route('/subtitle', methods=['GET'])
+@inject
+def execute2(youtube_controller: YoutubeController):
+    return youtube_controller.execute2()
+
+@youtube_bp.route('/naturalize', methods=['GET'])
+@inject
+def execute3(youtube_controller: YoutubeController):
+    return youtube_controller.execute3()

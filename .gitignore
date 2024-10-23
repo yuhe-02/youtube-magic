@@ -1,3 +1,5 @@
 .DS_Store
 .venv
 src/files
+src/config/settings_data.json
+src/config/settings_data_co.json
